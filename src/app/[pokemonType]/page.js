@@ -1,9 +1,9 @@
-import Home from '@/module/home'
+import Pokemon from '@/module/pokemon'
 import React from 'react'
 
 const Page = () => {
   return (
-    <Home />
+    <Pokemon />
   )
 }
 
