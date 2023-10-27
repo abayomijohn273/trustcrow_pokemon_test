@@ -11,6 +11,7 @@ const TopSection = ({ name, image }) => {
                 alt={name || "Pokemon"}
                 width={100}
                 height={100}
+                className='h-40 w-40  rounded-full'
             />
         </div>
 

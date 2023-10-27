@@ -51,13 +51,7 @@ const PokemonDetails = () => {
                                     image={data?.sprites?.front_shiny}
                                     name={data?.name}
                                 />
-                                {/*
-                                <DetailSummary summary={data?.summary} />
-
-                                <DetailShare title={data?.title} pathname={location?.pathname} /> */}
-                            </div>
-                            <div className='mt-6'>
-                                {/* <TabsSection selectedDetails={data} /> */}
+                            
                             </div>
                         </div>
             }
