@@ -27,9 +27,11 @@ This project uses the latest NextJS version. The project (/src) folder contains 
 We are using PokeAPI and here is the list of APIs used.
 
 For this assessment, the first goal is to list all pokemon categories/types; **(https://pokeapi.co/api/v2/type)**.
+
 Then, When a user clicks on a category, it should display a list of all the pokemons that belongs to
 that specific category; if more than 25 pokemons are to be listed, it sould implement a
 pagination mechanism; **(https://pokeapi.co/api/v2/type/1/)**
+
 NOTE: Pokemon data generated from this list does not have pagination. Therefore, Pagination & Search was handle with the total data in the pokemon array.
 
 If a user clicks on a pokemon, it should display the pokemon details and stats; **(https://pokeapi.co/api/v2/move/234/)**
