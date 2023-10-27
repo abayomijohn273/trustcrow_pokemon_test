@@ -2,7 +2,7 @@ import React from 'react'
 
 const TopSection = () => {
     return (
-        <div className="mt-8">
+        <div className="">
             <h2 className="text-xl lg:text-2xl font-bold text-primary">
                 Pokemóns Types Listing
             </h2>

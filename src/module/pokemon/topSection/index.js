@@ -3,7 +3,7 @@ import React from 'react'
 
 const TopSection = ({pokemonType}) => {
   return (
-<div className="mt-8">
+<div className="">
             <h2 className="text-xl lg:text-2xl font-bold text-primary">
                 Pokemóns Listing
             </h2>

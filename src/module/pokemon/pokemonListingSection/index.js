@@ -21,7 +21,7 @@ const Card = ({ name, pokemonType }) => {
 
 const PokemonListingSection = ({ pokemonType, results }) => {
     return (
-        <div className="mt-8 lg:mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mt-8 lg:mt-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {
                 results?.map((result, index) => <Card
                     key={index}
