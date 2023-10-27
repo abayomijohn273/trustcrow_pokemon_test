@@ -8,6 +8,7 @@ import { getPokemonByCategoryId } from '@/services/api';
 import { useParams } from 'next/navigation';
 import SearchFormSection from './searchFormSection';
 import PaginationSection from './paginationSection';
+import GoBackButton from '@/components/blocks/goBackButton';
 
 const Pokemon = () => {
     const params = useParams();
@@ -89,6 +90,9 @@ const Pokemon = () => {
 
     return (
         <div>
+            <div className='mb-6'>
+                <GoBackButton />
+            </div>
             <TopSection pokemonType={pokemonType} />
             <div className="mt-8 w-full md:w-6/12 lg:w-5/12">
                 <SearchFormSection
