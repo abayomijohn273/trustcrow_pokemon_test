@@ -32,8 +32,6 @@ export const getPokemonDetails = async(pokemonName) => {
     try {
         const response = await axios.get(API_URL + "/pokemon/" + pokemonName);
         const data = response.data;
-        console.log(data);
-
         return data;
     } catch (err) {
         toast.error(errorResponse(err));
